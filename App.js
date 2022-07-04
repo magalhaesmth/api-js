@@ -15,10 +15,10 @@ class App {
 
         app.get("/", (req, res) => {
             res.json({
-                name: "ifio-api-2022",
+                name: "API-JS",
                 version: "1.0.0",
-                description: "Projeto para fins didáticos",
-                author: "Marcelo F. Terenciani"
+                description: "Projetinho em desenvolvimento na matéria de Construção de Software",
+                author: "Matheus Magalhães Urbano"
             })
         })
 
